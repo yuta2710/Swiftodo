@@ -16,6 +16,87 @@
 		CF337AFB2B90B16B009CC006 /* SwiftodoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337AFA2B90B16B009CC006 /* SwiftodoTests.swift */; };
 		CF337B052B90B16B009CC006 /* SwiftodoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B042B90B16B009CC006 /* SwiftodoUITests.swift */; };
 		CF337B072B90B16B009CC006 /* SwiftodoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B062B90B16B009CC006 /* SwiftodoUITestsLaunchTests.swift */; };
+		CF337B1E2B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B142B90B2D6009CC006 /* NotoSans-Regular.ttf */; };
+		CF337B1F2B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B142B90B2D6009CC006 /* NotoSans-Regular.ttf */; };
+		CF337B202B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B142B90B2D6009CC006 /* NotoSans-Regular.ttf */; };
+		CF337B212B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B152B90B2D6009CC006 /* NotoSans-ExtraLightItalic.ttf */; };
+		CF337B222B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B152B90B2D6009CC006 /* NotoSans-ExtraLightItalic.ttf */; };
+		CF337B232B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B152B90B2D6009CC006 /* NotoSans-ExtraLightItalic.ttf */; };
+		CF337B242B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B162B90B2D6009CC006 /* NotoSans-ExtraLight.ttf */; };
+		CF337B252B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B162B90B2D6009CC006 /* NotoSans-ExtraLight.ttf */; };
+		CF337B262B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B162B90B2D6009CC006 /* NotoSans-ExtraLight.ttf */; };
+		CF337B272B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B172B90B2D6009CC006 /* NotoSans-MediumItalic.ttf */; };
+		CF337B282B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B172B90B2D6009CC006 /* NotoSans-MediumItalic.ttf */; };
+		CF337B292B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B172B90B2D6009CC006 /* NotoSans-MediumItalic.ttf */; };
+		CF337B2A2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B182B90B2D6009CC006 /* NotoSans-SemiBold.ttf */; };
+		CF337B2B2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B182B90B2D6009CC006 /* NotoSans-SemiBold.ttf */; };
+		CF337B2C2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B182B90B2D6009CC006 /* NotoSans-SemiBold.ttf */; };
+		CF337B2D2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B192B90B2D6009CC006 /* NotoSans-Italic.ttf */; };
+		CF337B2E2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B192B90B2D6009CC006 /* NotoSans-Italic.ttf */; };
+		CF337B2F2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B192B90B2D6009CC006 /* NotoSans-Italic.ttf */; };
+		CF337B302B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1A2B90B2D6009CC006 /* NotoSans-ExtraBoldItalic.ttf */; };
+		CF337B312B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1A2B90B2D6009CC006 /* NotoSans-ExtraBoldItalic.ttf */; };
+		CF337B322B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1A2B90B2D6009CC006 /* NotoSans-ExtraBoldItalic.ttf */; };
+		CF337B332B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1B2B90B2D6009CC006 /* NotoSans-Light.ttf */; };
+		CF337B342B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1B2B90B2D6009CC006 /* NotoSans-Light.ttf */; };
+		CF337B352B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1B2B90B2D6009CC006 /* NotoSans-Light.ttf */; };
+		CF337B362B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1C2B90B2D6009CC006 /* NotoSans-LightItalic.ttf */; };
+		CF337B372B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1C2B90B2D6009CC006 /* NotoSans-LightItalic.ttf */; };
+		CF337B382B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1C2B90B2D6009CC006 /* NotoSans-LightItalic.ttf */; };
+		CF337B392B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1D2B90B2D6009CC006 /* NotoSans-Medium.ttf */; };
+		CF337B3A2B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1D2B90B2D6009CC006 /* NotoSans-Medium.ttf */; };
+		CF337B3B2B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B1D2B90B2D6009CC006 /* NotoSans-Medium.ttf */; };
+		CF337B3F2B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */; };
+		CF337B402B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */; };
+		CF337B412B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */; };
+		CF337B422B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */; };
+		CF337B432B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */; };
+		CF337B442B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */; };
+		CF337B4B2B90B5E0009CC006 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B4A2B90B5E0009CC006 /* FirebaseAuth */; };
+		CF337B4D2B90B5E0009CC006 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B4C2B90B5E0009CC006 /* FirebaseFirestore */; };
+		CF337B4F2B90B5E0009CC006 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B4E2B90B5E0009CC006 /* FirebaseFirestoreSwift */; };
+		CF337B512B90B5E0009CC006 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B502B90B5E0009CC006 /* FirebaseStorage */; };
+		CF337B542B90B6D8009CC006 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B532B90B6D8009CC006 /* GoogleSignIn */; };
+		CF337B562B90B6D8009CC006 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CF337B552B90B6D8009CC006 /* GoogleSignInSwift */; };
+		CF337B582B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
+		CF337B592B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
+		CF337B5A2B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
+		CF337B652B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
+		CF337B662B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
+		CF337B672B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
+		CF337B692B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
+		CF337B6A2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
+		CF337B6B2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
+		CF337B6D2B90C2FD009CC006 /* View_TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */; };
+		CF337B6E2B90C2FD009CC006 /* View_TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */; };
+		CF337B6F2B90C2FD009CC006 /* View_TaskSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */; };
+		CF337B712B90C31C009CC006 /* View_TaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B702B90C31C009CC006 /* View_TaskDetails.swift */; };
+		CF337B722B90C31C009CC006 /* View_TaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B702B90C31C009CC006 /* View_TaskDetails.swift */; };
+		CF337B732B90C31C009CC006 /* View_TaskDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B702B90C31C009CC006 /* View_TaskDetails.swift */; };
+		CF337B752B90C327009CC006 /* View_Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B742B90C327009CC006 /* View_Me.swift */; };
+		CF337B762B90C327009CC006 /* View_Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B742B90C327009CC006 /* View_Me.swift */; };
+		CF337B772B90C327009CC006 /* View_Me.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B742B90C327009CC006 /* View_Me.swift */; };
+		CF337B792B90C35D009CC006 /* Entity_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B782B90C35D009CC006 /* Entity_Account.swift */; };
+		CF337B7A2B90C35D009CC006 /* Entity_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B782B90C35D009CC006 /* Entity_Account.swift */; };
+		CF337B7B2B90C35D009CC006 /* Entity_Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B782B90C35D009CC006 /* Entity_Account.swift */; };
+		CF337B7D2B90C36A009CC006 /* Entity_Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B7C2B90C36A009CC006 /* Entity_Task.swift */; };
+		CF337B7E2B90C36A009CC006 /* Entity_Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B7C2B90C36A009CC006 /* Entity_Task.swift */; };
+		CF337B7F2B90C36A009CC006 /* Entity_Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B7C2B90C36A009CC006 /* Entity_Task.swift */; };
+		CF337B812B90C37B009CC006 /* Entity_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B802B90C37B009CC006 /* Entity_Workspace.swift */; };
+		CF337B822B90C37B009CC006 /* Entity_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B802B90C37B009CC006 /* Entity_Workspace.swift */; };
+		CF337B832B90C37B009CC006 /* Entity_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B802B90C37B009CC006 /* Entity_Workspace.swift */; };
+		CF337B862B90C8DA009CC006 /* Manager_Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B852B90C8D9009CC006 /* Manager_Authentication.swift */; };
+		CF337B872B90C8DA009CC006 /* Manager_Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B852B90C8D9009CC006 /* Manager_Authentication.swift */; };
+		CF337B882B90C8DA009CC006 /* Manager_Authentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B852B90C8D9009CC006 /* Manager_Authentication.swift */; };
+		CF337B8A2B90C944009CC006 /* View_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B892B90C944009CC006 /* View_Login.swift */; };
+		CF337B8B2B90C944009CC006 /* View_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B892B90C944009CC006 /* View_Login.swift */; };
+		CF337B8C2B90C944009CC006 /* View_Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B892B90C944009CC006 /* View_Login.swift */; };
+		CF337B8E2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */; };
+		CF337B8F2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */; };
+		CF337B902B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */; };
+		CF337B922B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
+		CF337B932B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
+		CF337B942B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +129,32 @@
 		CF337B002B90B16B009CC006 /* SwiftodoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftodoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF337B042B90B16B009CC006 /* SwiftodoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftodoUITests.swift; sourceTree = "<group>"; };
 		CF337B062B90B16B009CC006 /* SwiftodoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftodoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CF337B142B90B2D6009CC006 /* NotoSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Regular.ttf"; sourceTree = "<group>"; };
+		CF337B152B90B2D6009CC006 /* NotoSans-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		CF337B162B90B2D6009CC006 /* NotoSans-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraLight.ttf"; sourceTree = "<group>"; };
+		CF337B172B90B2D6009CC006 /* NotoSans-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-MediumItalic.ttf"; sourceTree = "<group>"; };
+		CF337B182B90B2D6009CC006 /* NotoSans-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-SemiBold.ttf"; sourceTree = "<group>"; };
+		CF337B192B90B2D6009CC006 /* NotoSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Italic.ttf"; sourceTree = "<group>"; };
+		CF337B1A2B90B2D6009CC006 /* NotoSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		CF337B1B2B90B2D6009CC006 /* NotoSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Light.ttf"; sourceTree = "<group>"; };
+		CF337B1C2B90B2D6009CC006 /* NotoSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		CF337B1D2B90B2D6009CC006 /* NotoSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Medium.ttf"; sourceTree = "<group>"; };
+		CF337B3C2B90B34A009CC006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Black.ttf"; sourceTree = "<group>"; };
+		CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
+		CF337B572B90B79C009CC006 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CF337B642B90C2BA009CC006 /* View_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Home.swift; sourceTree = "<group>"; };
+		CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_CreateWorkSpace.swift; sourceTree = "<group>"; };
+		CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_TaskSection.swift; sourceTree = "<group>"; };
+		CF337B702B90C31C009CC006 /* View_TaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_TaskDetails.swift; sourceTree = "<group>"; };
+		CF337B742B90C327009CC006 /* View_Me.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Me.swift; sourceTree = "<group>"; };
+		CF337B782B90C35D009CC006 /* Entity_Account.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity_Account.swift; sourceTree = "<group>"; };
+		CF337B7C2B90C36A009CC006 /* Entity_Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity_Task.swift; sourceTree = "<group>"; };
+		CF337B802B90C37B009CC006 /* Entity_Workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity_Workspace.swift; sourceTree = "<group>"; };
+		CF337B852B90C8D9009CC006 /* Manager_Authentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Manager_Authentication.swift; sourceTree = "<group>"; };
+		CF337B892B90C944009CC006 /* View_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Login.swift; sourceTree = "<group>"; };
+		CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_MonochromeButton.swift; sourceTree = "<group>"; };
+		CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper_Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +162,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B542B90B6D8009CC006 /* GoogleSignIn in Frameworks */,
+				CF337B4B2B90B5E0009CC006 /* FirebaseAuth in Frameworks */,
+				CF337B512B90B5E0009CC006 /* FirebaseStorage in Frameworks */,
+				CF337B562B90B6D8009CC006 /* GoogleSignInSwift in Frameworks */,
+				CF337B4D2B90B5E0009CC006 /* FirebaseFirestore in Frameworks */,
+				CF337B4F2B90B5E0009CC006 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +211,15 @@
 		CF337AE32B90B16A009CC006 /* Swiftodo */ = {
 			isa = PBXGroup;
 			children = (
+				CF337B842B90C8BF009CC006 /* Manager */,
+				CF337B5F2B90BA42009CC006 /* Helpers */,
+				CF337B5E2B90BA32009CC006 /* Entity */,
+				CF337B5D2B90BA2D009CC006 /* Views */,
+				CF337B5C2B90BA19009CC006 /* ViewModels */,
+				CF337B5B2B90BA0A009CC006 /* UI */,
+				CF337B572B90B79C009CC006 /* GoogleService-Info.plist */,
+				CF337B3C2B90B34A009CC006 /* Info.plist */,
+				CF337B132B90B2C5009CC006 /* Fonts */,
 				CF337AE42B90B16A009CC006 /* SwiftodoApp.swift */,
 				CF337AE62B90B16A009CC006 /* ContentView.swift */,
 				CF337AE82B90B16B009CC006 /* Assets.xcassets */,
@@ -133,6 +255,79 @@
 			path = SwiftodoUITests;
 			sourceTree = "<group>";
 		};
+		CF337B132B90B2C5009CC006 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */,
+				CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */,
+				CF337B1A2B90B2D6009CC006 /* NotoSans-ExtraBoldItalic.ttf */,
+				CF337B162B90B2D6009CC006 /* NotoSans-ExtraLight.ttf */,
+				CF337B152B90B2D6009CC006 /* NotoSans-ExtraLightItalic.ttf */,
+				CF337B192B90B2D6009CC006 /* NotoSans-Italic.ttf */,
+				CF337B1B2B90B2D6009CC006 /* NotoSans-Light.ttf */,
+				CF337B1C2B90B2D6009CC006 /* NotoSans-LightItalic.ttf */,
+				CF337B1D2B90B2D6009CC006 /* NotoSans-Medium.ttf */,
+				CF337B172B90B2D6009CC006 /* NotoSans-MediumItalic.ttf */,
+				CF337B142B90B2D6009CC006 /* NotoSans-Regular.ttf */,
+				CF337B182B90B2D6009CC006 /* NotoSans-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		CF337B5B2B90BA0A009CC006 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		CF337B5C2B90BA19009CC006 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CF337B5D2B90BA2D009CC006 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B642B90C2BA009CC006 /* View_Home.swift */,
+				CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */,
+				CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */,
+				CF337B702B90C31C009CC006 /* View_TaskDetails.swift */,
+				CF337B742B90C327009CC006 /* View_Me.swift */,
+				CF337B892B90C944009CC006 /* View_Login.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF337B5E2B90BA32009CC006 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B782B90C35D009CC006 /* Entity_Account.swift */,
+				CF337B7C2B90C36A009CC006 /* Entity_Task.swift */,
+				CF337B802B90C37B009CC006 /* Entity_Workspace.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		CF337B5F2B90BA42009CC006 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		CF337B842B90C8BF009CC006 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B852B90C8D9009CC006 /* Manager_Authentication.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +344,14 @@
 			dependencies = (
 			);
 			name = Swiftodo;
+			packageProductDependencies = (
+				CF337B4A2B90B5E0009CC006 /* FirebaseAuth */,
+				CF337B4C2B90B5E0009CC006 /* FirebaseFirestore */,
+				CF337B4E2B90B5E0009CC006 /* FirebaseFirestoreSwift */,
+				CF337B502B90B5E0009CC006 /* FirebaseStorage */,
+				CF337B532B90B6D8009CC006 /* GoogleSignIn */,
+				CF337B552B90B6D8009CC006 /* GoogleSignInSwift */,
+			);
 			productName = Swiftodo;
 			productReference = CF337AE12B90B16A009CC006 /* Swiftodo.app */;
 			productType = "com.apple.product-type.application";
@@ -221,6 +424,10 @@
 				Base,
 			);
 			mainGroup = CF337AD82B90B16A009CC006;
+			packageReferences = (
+				CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+			);
 			productRefGroup = CF337AE22B90B16A009CC006 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -237,8 +444,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B3F2B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */,
+				CF337B362B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */,
+				CF337B582B90B79C009CC006 /* GoogleService-Info.plist in Resources */,
+				CF337B1E2B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */,
+				CF337B392B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */,
+				CF337B212B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */,
+				CF337B2A2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */,
+				CF337B272B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */,
+				CF337B302B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */,
 				CF337AEC2B90B16B009CC006 /* Preview Assets.xcassets in Resources */,
+				CF337B332B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */,
+				CF337B422B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */,
 				CF337AE92B90B16B009CC006 /* Assets.xcassets in Resources */,
+				CF337B242B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */,
+				CF337B2D2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +466,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B592B90B79C009CC006 /* GoogleService-Info.plist in Resources */,
+				CF337B432B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */,
+				CF337B342B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */,
+				CF337B1F2B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */,
+				CF337B2B2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */,
+				CF337B372B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */,
+				CF337B402B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */,
+				CF337B3A2B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */,
+				CF337B222B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */,
+				CF337B2E2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */,
+				CF337B282B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */,
+				CF337B312B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */,
+				CF337B252B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +486,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B5A2B90B79C009CC006 /* GoogleService-Info.plist in Resources */,
+				CF337B442B90B3E2009CC006 /* NotoSans-Bold.ttf in Resources */,
+				CF337B352B90B2D7009CC006 /* NotoSans-Light.ttf in Resources */,
+				CF337B202B90B2D7009CC006 /* NotoSans-Regular.ttf in Resources */,
+				CF337B2C2B90B2D7009CC006 /* NotoSans-SemiBold.ttf in Resources */,
+				CF337B382B90B2D7009CC006 /* NotoSans-LightItalic.ttf in Resources */,
+				CF337B412B90B3E2009CC006 /* NotoSans-Black.ttf in Resources */,
+				CF337B3B2B90B2D7009CC006 /* NotoSans-Medium.ttf in Resources */,
+				CF337B232B90B2D7009CC006 /* NotoSans-ExtraLightItalic.ttf in Resources */,
+				CF337B2F2B90B2D7009CC006 /* NotoSans-Italic.ttf in Resources */,
+				CF337B292B90B2D7009CC006 /* NotoSans-MediumItalic.ttf in Resources */,
+				CF337B322B90B2D7009CC006 /* NotoSans-ExtraBoldItalic.ttf in Resources */,
+				CF337B262B90B2D7009CC006 /* NotoSans-ExtraLight.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +509,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B692B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
 				CF337AF12B90B16B009CC006 /* Swiftodo.xcdatamodeld in Sources */,
+				CF337B7D2B90C36A009CC006 /* Entity_Task.swift in Sources */,
+				CF337B8E2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
+				CF337B812B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
+				CF337B862B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
+				CF337B792B90C35D009CC006 /* Entity_Account.swift in Sources */,
+				CF337B6D2B90C2FD009CC006 /* View_TaskSection.swift in Sources */,
+				CF337B752B90C327009CC006 /* View_Me.swift in Sources */,
+				CF337B8A2B90C944009CC006 /* View_Login.swift in Sources */,
 				CF337AEE2B90B16B009CC006 /* Persistence.swift in Sources */,
+				CF337B652B90C2BA009CC006 /* View_Home.swift in Sources */,
 				CF337AE72B90B16A009CC006 /* ContentView.swift in Sources */,
 				CF337AE52B90B16A009CC006 /* SwiftodoApp.swift in Sources */,
+				CF337B712B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337B922B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +532,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B7A2B90C35D009CC006 /* Entity_Account.swift in Sources */,
+				CF337B662B90C2BA009CC006 /* View_Home.swift in Sources */,
+				CF337B8F2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
+				CF337B872B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
+				CF337B722B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337B762B90C327009CC006 /* View_Me.swift in Sources */,
+				CF337B932B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
+				CF337B8B2B90C944009CC006 /* View_Login.swift in Sources */,
+				CF337B6E2B90C2FD009CC006 /* View_TaskSection.swift in Sources */,
+				CF337B822B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
+				CF337B7E2B90C36A009CC006 /* Entity_Task.swift in Sources */,
+				CF337B6A2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
 				CF337AFB2B90B16B009CC006 /* SwiftodoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,8 +552,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337B942B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
 				CF337B072B90B16B009CC006 /* SwiftodoUITestsLaunchTests.swift in Sources */,
+				CF337B882B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
+				CF337B902B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
+				CF337B7F2B90C36A009CC006 /* Entity_Task.swift in Sources */,
+				CF337B672B90C2BA009CC006 /* View_Home.swift in Sources */,
+				CF337B6B2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
+				CF337B7B2B90C35D009CC006 /* Entity_Account.swift in Sources */,
+				CF337B772B90C327009CC006 /* View_Me.swift in Sources */,
 				CF337B052B90B16B009CC006 /* SwiftodoUITests.swift in Sources */,
+				CF337B6F2B90C2FD009CC006 /* View_TaskSection.swift in Sources */,
+				CF337B832B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
+				CF337B732B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337B8C2B90C944009CC006 /* View_Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +715,7 @@
 				DEVELOPMENT_TEAM = 53AZXG7V4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -462,6 +745,7 @@
 				DEVELOPMENT_TEAM = 53AZXG7V4Q;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Swiftodo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -596,6 +880,58 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.21.0;
+			};
+		};
+		CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CF337B4A2B90B5E0009CC006 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		CF337B4C2B90B5E0009CC006 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		CF337B4E2B90B5E0009CC006 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		CF337B502B90B5E0009CC006 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		CF337B532B90B6D8009CC006 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		CF337B552B90B6D8009CC006 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CF337AEF2B90B16B009CC006 /* Swiftodo.xcdatamodeld */ = {

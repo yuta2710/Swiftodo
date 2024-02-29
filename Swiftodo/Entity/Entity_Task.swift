@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+struct TaskEntity: Decodable, Identifiable {
+    var id: UUID = UUID()
+}

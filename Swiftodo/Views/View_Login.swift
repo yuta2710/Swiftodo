@@ -7,12 +7,31 @@
 
 import SwiftUI
 
-struct View_Login: View {
+struct LoginView: View {
+    @EnvironmentObject private var authenticationManager: AuthenticationManager
+    @State private var isSignInWithGoogle: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                MonochromeButton(action: {
+                    self.isSignInWithGoogle.toggle()
+                    Task.init {
+                        let success = await self.authenticationManager.signInWithGoogle() {
+                            
+                        }
+                        self.isSignInWithGoogle.toggle()
+                        
+                        if success {
+                            print("Da tao account thanh cong")
+                        }
+                    }
+                }, text: "Sign In With Google")
+            }
+        }
     }
 }
 
 #Preview {
-    View_Login()
+    LoginView()
 }

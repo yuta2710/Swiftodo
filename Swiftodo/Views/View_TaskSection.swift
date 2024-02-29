@@ -7,12 +7,12 @@
 
 import SwiftUI
 
-struct View_TaskSection: View {
+struct TaskSectionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text("Data")
     }
 }
 
 #Preview {
-    View_TaskSection()
+    TaskSectionView()
 }
