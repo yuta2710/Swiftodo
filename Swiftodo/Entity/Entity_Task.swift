@@ -7,6 +7,6 @@
 
 import Foundation
 
-struct TaskEntity: Decodable, Identifiable {
-    var id: UUID = UUID()
+struct TaskEntity: Codable, Identifiable {
+    var id: UUID
 }

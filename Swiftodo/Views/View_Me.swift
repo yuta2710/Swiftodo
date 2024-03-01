@@ -8,11 +8,24 @@
 import SwiftUI
 
 struct MeView: View {
+    @EnvironmentObject var authenticationManager: AuthenticationManager
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            VStack {
+                if let currentUser = authenticationManager.currentAccount, authenticationManager.isSignIn {
+                    Text(currentUser.name)
+                }
+            }
+        }
+        .onAppear() {
+            DispatchQueue.main.async {
+                authenticationManager.fetchCurrentAccount()
+            }
+        }
     }
 }
 
 #Preview {
     MeView()
+        .environmentObject(AuthenticationManager())
 }

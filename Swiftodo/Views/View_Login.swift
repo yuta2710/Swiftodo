@@ -20,10 +20,13 @@ struct LoginView: View {
                         let success = await self.authenticationManager.signInWithGoogle() {
                             
                         }
+                        
                         self.isSignInWithGoogle.toggle()
                         
                         if success {
-                            print("Da tao account thanh cong")
+                            print("[SUCCESS] -- Da sign in account thanh cong")
+                        }else {
+                            print("[FAILURE] -- Sign in ko thanh cong")
                         }
                     }
                 }, text: "Sign In With Google")
@@ -34,4 +37,5 @@ struct LoginView: View {
 
 #Preview {
     LoginView()
+        .environmentObject(AuthenticationManager())
 }

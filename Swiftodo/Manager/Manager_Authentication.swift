@@ -148,5 +148,33 @@ class AuthenticationManager: ObservableObject {
             
         }
     }
+    
+    func fetchCurrentAccount() {
+        let db = Firestore.firestore()
+        
+        guard let uId = Auth.auth().currentUser?.uid else {
+            return
+        }
+        
+        db.collection("accounts").document(uId).getDocument { [weak self] snapshot, error in
+            guard let data = snapshot?.data(), error == nil else {
+                return
+            }
+            
+            DispatchQueue.main.async {
+                self?.currentAccount = AccountEntity(
+                    id: data["id"] as? String ?? "",
+                    email: data["email"] as? String ?? "",
+                    name: data["name"] as? String ?? "",
+                    avatar: data["avatar"] as? String ?? "",
+                    associatedWorkspaces: data["associatedWorkspaces"] as? [String] ?? [],
+                    taskAssigned: data["taskAssigned"] as? [String] ?? [],
+                    taskCreated: data["taskCreated"] as? [String] ?? [],
+                    workspaceOwned: data["workspaceOwned"] as? [String] ?? [],
+                    isActive: data["isActive"] as? Bool ?? false,
+                    joined: data["joined"] as? TimeInterval ?? Date().timeIntervalSince1970)
+            }
+        }
+    }
 }
 

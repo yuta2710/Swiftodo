@@ -15,7 +15,6 @@ enum AccountRole {
 struct AccountEntity: Codable, Identifiable {
     var id: String
     var email: String
-//    var password: String
     var name: String
     var avatar: String
     var associatedWorkspaces: [String]

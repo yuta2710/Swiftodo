@@ -61,9 +61,9 @@
 		CF337B582B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
 		CF337B592B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
 		CF337B5A2B90B79C009CC006 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CF337B572B90B79C009CC006 /* GoogleService-Info.plist */; };
-		CF337B652B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
-		CF337B662B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
-		CF337B672B90C2BA009CC006 /* View_Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Home.swift */; };
+		CF337B652B90C2BA009CC006 /* View_Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Today.swift */; };
+		CF337B662B90C2BA009CC006 /* View_Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Today.swift */; };
+		CF337B672B90C2BA009CC006 /* View_Today.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B642B90C2BA009CC006 /* View_Today.swift */; };
 		CF337B692B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
 		CF337B6A2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
 		CF337B6B2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */; };
@@ -97,6 +97,39 @@
 		CF337B922B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
 		CF337B932B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
 		CF337B942B90D8E0009CC006 /* Helper_Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */; };
+		CF337B962B90E8DD009CC006 /* UI_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B952B90E8DD009CC006 /* UI_TabBar.swift */; };
+		CF337B972B90E8DD009CC006 /* UI_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B952B90E8DD009CC006 /* UI_TabBar.swift */; };
+		CF337B982B90E8DD009CC006 /* UI_TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B952B90E8DD009CC006 /* UI_TabBar.swift */; };
+		CF337B9B2B90E90C009CC006 /* Constant_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9A2B90E90C009CC006 /* Constant_Tab.swift */; };
+		CF337B9C2B90E90C009CC006 /* Constant_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9A2B90E90C009CC006 /* Constant_Tab.swift */; };
+		CF337B9D2B90E90C009CC006 /* Constant_Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9A2B90E90C009CC006 /* Constant_Tab.swift */; };
+		CF337B9F2B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9E2B90F75D009CC006 /* ViewModel_Workspace.swift */; };
+		CF337BA02B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9E2B90F75D009CC006 /* ViewModel_Workspace.swift */; };
+		CF337BA12B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337B9E2B90F75D009CC006 /* ViewModel_Workspace.swift */; };
+		CF337BA42B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BA32B910BF7009CC006 /* View_WorkspaceDetails.swift */; };
+		CF337BA52B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BA32B910BF7009CC006 /* View_WorkspaceDetails.swift */; };
+		CF337BA62B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BA32B910BF7009CC006 /* View_WorkspaceDetails.swift */; };
+		CF337BA92B91922D009CC006 /* SwiftUIIntrospect in Frameworks */ = {isa = PBXBuildFile; productRef = CF337BA82B91922D009CC006 /* SwiftUIIntrospect */; };
+		CF337BAB2B91922D009CC006 /* SwiftUIIntrospect-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = CF337BAA2B91922D009CC006 /* SwiftUIIntrospect-Dynamic */; };
+		CF337BAD2B91922D009CC006 /* SwiftUIIntrospect-Static in Frameworks */ = {isa = PBXBuildFile; productRef = CF337BAC2B91922D009CC006 /* SwiftUIIntrospect-Static */; };
+		CF337BB02B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BAF2B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift */; };
+		CF337BB12B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BAF2B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift */; };
+		CF337BB22B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BAF2B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift */; };
+		CF337BB42B91FF3F009CC006 /* UI_SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB32B91FF3F009CC006 /* UI_SolidButton.swift */; };
+		CF337BB52B91FF3F009CC006 /* UI_SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB32B91FF3F009CC006 /* UI_SolidButton.swift */; };
+		CF337BB62B91FF3F009CC006 /* UI_SolidButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB32B91FF3F009CC006 /* UI_SolidButton.swift */; };
+		CF337BB82B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB72B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift */; };
+		CF337BB92B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB72B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift */; };
+		CF337BBA2B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BB72B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift */; };
+		CF337BBC2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBB2B921250009CC006 /* ViewModifier_Thumbnail.swift */; };
+		CF337BBD2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBB2B921250009CC006 /* ViewModifier_Thumbnail.swift */; };
+		CF337BBE2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBB2B921250009CC006 /* ViewModifier_Thumbnail.swift */; };
+		CF337BC02B921268009CC006 /* ViewModifier_Collapse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBF2B921268009CC006 /* ViewModifier_Collapse.swift */; };
+		CF337BC12B921268009CC006 /* ViewModifier_Collapse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBF2B921268009CC006 /* ViewModifier_Collapse.swift */; };
+		CF337BC22B921268009CC006 /* ViewModifier_Collapse.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BBF2B921268009CC006 /* ViewModifier_Collapse.swift */; };
+		CF337BC42B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BC32B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift */; };
+		CF337BC52B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BC32B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift */; };
+		CF337BC62B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF337BC32B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -143,7 +176,7 @@
 		CF337B3D2B90B3E2009CC006 /* NotoSans-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Black.ttf"; sourceTree = "<group>"; };
 		CF337B3E2B90B3E2009CC006 /* NotoSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "NotoSans-Bold.ttf"; sourceTree = "<group>"; };
 		CF337B572B90B79C009CC006 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../GoogleService-Info.plist"; sourceTree = "<group>"; };
-		CF337B642B90C2BA009CC006 /* View_Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Home.swift; sourceTree = "<group>"; };
+		CF337B642B90C2BA009CC006 /* View_Today.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Today.swift; sourceTree = "<group>"; };
 		CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_CreateWorkSpace.swift; sourceTree = "<group>"; };
 		CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_TaskSection.swift; sourceTree = "<group>"; };
 		CF337B702B90C31C009CC006 /* View_TaskDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_TaskDetails.swift; sourceTree = "<group>"; };
@@ -155,6 +188,16 @@
 		CF337B892B90C944009CC006 /* View_Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_Login.swift; sourceTree = "<group>"; };
 		CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_MonochromeButton.swift; sourceTree = "<group>"; };
 		CF337B912B90D8E0009CC006 /* Helper_Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper_Extensions.swift; sourceTree = "<group>"; };
+		CF337B952B90E8DD009CC006 /* UI_TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_TabBar.swift; sourceTree = "<group>"; };
+		CF337B9A2B90E90C009CC006 /* Constant_Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constant_Tab.swift; sourceTree = "<group>"; };
+		CF337B9E2B90F75D009CC006 /* ViewModel_Workspace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel_Workspace.swift; sourceTree = "<group>"; };
+		CF337BA32B910BF7009CC006 /* View_WorkspaceDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View_WorkspaceDetails.swift; sourceTree = "<group>"; };
+		CF337BAF2B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier_NavigationTitleFont.swift; sourceTree = "<group>"; };
+		CF337BB32B91FF3F009CC006 /* UI_SolidButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_SolidButton.swift; sourceTree = "<group>"; };
+		CF337BB72B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewModifier_ CollapsibleCardView.swift"; sourceTree = "<group>"; };
+		CF337BBB2B921250009CC006 /* ViewModifier_Thumbnail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier_Thumbnail.swift; sourceTree = "<group>"; };
+		CF337BBF2B921268009CC006 /* ViewModifier_Collapse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier_Collapse.swift; sourceTree = "<group>"; };
+		CF337BC32B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier_ImageGeneratorMethods.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -162,12 +205,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337BA92B91922D009CC006 /* SwiftUIIntrospect in Frameworks */,
+				CF337BAB2B91922D009CC006 /* SwiftUIIntrospect-Dynamic in Frameworks */,
 				CF337B542B90B6D8009CC006 /* GoogleSignIn in Frameworks */,
 				CF337B4B2B90B5E0009CC006 /* FirebaseAuth in Frameworks */,
 				CF337B512B90B5E0009CC006 /* FirebaseStorage in Frameworks */,
 				CF337B562B90B6D8009CC006 /* GoogleSignInSwift in Frameworks */,
 				CF337B4D2B90B5E0009CC006 /* FirebaseFirestore in Frameworks */,
 				CF337B4F2B90B5E0009CC006 /* FirebaseFirestoreSwift in Frameworks */,
+				CF337BAD2B91922D009CC006 /* SwiftUIIntrospect-Static in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -211,6 +257,8 @@
 		CF337AE32B90B16A009CC006 /* Swiftodo */ = {
 			isa = PBXGroup;
 			children = (
+				CF337BAE2B9192B1009CC006 /* ViewModifier */,
+				CF337B992B90E8FC009CC006 /* Constants */,
 				CF337B842B90C8BF009CC006 /* Manager */,
 				CF337B5F2B90BA42009CC006 /* Helpers */,
 				CF337B5E2B90BA32009CC006 /* Entity */,
@@ -277,7 +325,9 @@
 		CF337B5B2B90BA0A009CC006 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				CF337BB32B91FF3F009CC006 /* UI_SolidButton.swift */,
 				CF337B8D2B90CE5C009CC006 /* UI_MonochromeButton.swift */,
+				CF337B952B90E8DD009CC006 /* UI_TabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -285,6 +335,7 @@
 		CF337B5C2B90BA19009CC006 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				CF337B9E2B90F75D009CC006 /* ViewModel_Workspace.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -292,12 +343,13 @@
 		CF337B5D2B90BA2D009CC006 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CF337B642B90C2BA009CC006 /* View_Home.swift */,
+				CF337B642B90C2BA009CC006 /* View_Today.swift */,
 				CF337B682B90C2CF009CC006 /* View_CreateWorkSpace.swift */,
 				CF337B6C2B90C2FD009CC006 /* View_TaskSection.swift */,
 				CF337B702B90C31C009CC006 /* View_TaskDetails.swift */,
 				CF337B742B90C327009CC006 /* View_Me.swift */,
 				CF337B892B90C944009CC006 /* View_Login.swift */,
+				CF337BA32B910BF7009CC006 /* View_WorkspaceDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -328,6 +380,26 @@
 			path = Manager;
 			sourceTree = "<group>";
 		};
+		CF337B992B90E8FC009CC006 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CF337B9A2B90E90C009CC006 /* Constant_Tab.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CF337BAE2B9192B1009CC006 /* ViewModifier */ = {
+			isa = PBXGroup;
+			children = (
+				CF337BAF2B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift */,
+				CF337BB72B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift */,
+				CF337BBB2B921250009CC006 /* ViewModifier_Thumbnail.swift */,
+				CF337BBF2B921268009CC006 /* ViewModifier_Collapse.swift */,
+				CF337BC32B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift */,
+			);
+			path = ViewModifier;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -351,6 +423,9 @@
 				CF337B502B90B5E0009CC006 /* FirebaseStorage */,
 				CF337B532B90B6D8009CC006 /* GoogleSignIn */,
 				CF337B552B90B6D8009CC006 /* GoogleSignInSwift */,
+				CF337BA82B91922D009CC006 /* SwiftUIIntrospect */,
+				CF337BAA2B91922D009CC006 /* SwiftUIIntrospect-Dynamic */,
+				CF337BAC2B91922D009CC006 /* SwiftUIIntrospect-Static */,
 			);
 			productName = Swiftodo;
 			productReference = CF337AE12B90B16A009CC006 /* Swiftodo.app */;
@@ -427,6 +502,7 @@
 			packageReferences = (
 				CF337B492B90B564009CC006 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 				CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				CF337BA72B91922D009CC006 /* XCRemoteSwiftPackageReference "swiftui-introspect" */,
 			);
 			productRefGroup = CF337AE22B90B16A009CC006 /* Products */;
 			projectDirPath = "";
@@ -511,7 +587,9 @@
 			files = (
 				CF337B692B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
 				CF337AF12B90B16B009CC006 /* Swiftodo.xcdatamodeld in Sources */,
+				CF337B9F2B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */,
 				CF337B7D2B90C36A009CC006 /* Entity_Task.swift in Sources */,
+				CF337BC42B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */,
 				CF337B8E2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
 				CF337B812B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
 				CF337B862B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
@@ -520,11 +598,19 @@
 				CF337B752B90C327009CC006 /* View_Me.swift in Sources */,
 				CF337B8A2B90C944009CC006 /* View_Login.swift in Sources */,
 				CF337AEE2B90B16B009CC006 /* Persistence.swift in Sources */,
-				CF337B652B90C2BA009CC006 /* View_Home.swift in Sources */,
+				CF337BBC2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */,
+				CF337B652B90C2BA009CC006 /* View_Today.swift in Sources */,
+				CF337BB42B91FF3F009CC006 /* UI_SolidButton.swift in Sources */,
+				CF337BC02B921268009CC006 /* ViewModifier_Collapse.swift in Sources */,
 				CF337AE72B90B16A009CC006 /* ContentView.swift in Sources */,
 				CF337AE52B90B16A009CC006 /* SwiftodoApp.swift in Sources */,
+				CF337BB02B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */,
 				CF337B712B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337B962B90E8DD009CC006 /* UI_TabBar.swift in Sources */,
+				CF337BA42B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */,
 				CF337B922B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
+				CF337B9B2B90E90C009CC006 /* Constant_Tab.swift in Sources */,
+				CF337BB82B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -532,19 +618,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF337BB92B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */,
 				CF337B7A2B90C35D009CC006 /* Entity_Account.swift in Sources */,
-				CF337B662B90C2BA009CC006 /* View_Home.swift in Sources */,
+				CF337B662B90C2BA009CC006 /* View_Today.swift in Sources */,
 				CF337B8F2B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
+				CF337BB12B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */,
 				CF337B872B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
 				CF337B722B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337BC52B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */,
 				CF337B762B90C327009CC006 /* View_Me.swift in Sources */,
 				CF337B932B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
+				CF337BBD2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */,
 				CF337B8B2B90C944009CC006 /* View_Login.swift in Sources */,
 				CF337B6E2B90C2FD009CC006 /* View_TaskSection.swift in Sources */,
 				CF337B822B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
 				CF337B7E2B90C36A009CC006 /* Entity_Task.swift in Sources */,
 				CF337B6A2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
+				CF337BA52B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */,
+				CF337BC12B921268009CC006 /* ViewModifier_Collapse.swift in Sources */,
 				CF337AFB2B90B16B009CC006 /* SwiftodoTests.swift in Sources */,
+				CF337B972B90E8DD009CC006 /* UI_TabBar.swift in Sources */,
+				CF337BA02B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */,
+				CF337B9C2B90E90C009CC006 /* Constant_Tab.swift in Sources */,
+				CF337BB52B91FF3F009CC006 /* UI_SolidButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -555,16 +651,26 @@
 				CF337B942B90D8E0009CC006 /* Helper_Extensions.swift in Sources */,
 				CF337B072B90B16B009CC006 /* SwiftodoUITestsLaunchTests.swift in Sources */,
 				CF337B882B90C8DA009CC006 /* Manager_Authentication.swift in Sources */,
+				CF337BA12B90F75D009CC006 /* ViewModel_Workspace.swift in Sources */,
+				CF337B982B90E8DD009CC006 /* UI_TabBar.swift in Sources */,
 				CF337B902B90CE5C009CC006 /* UI_MonochromeButton.swift in Sources */,
+				CF337BB22B9192C9009CC006 /* ViewModifier_NavigationTitleFont.swift in Sources */,
 				CF337B7F2B90C36A009CC006 /* Entity_Task.swift in Sources */,
-				CF337B672B90C2BA009CC006 /* View_Home.swift in Sources */,
+				CF337BBE2B921250009CC006 /* ViewModifier_Thumbnail.swift in Sources */,
+				CF337B672B90C2BA009CC006 /* View_Today.swift in Sources */,
 				CF337B6B2B90C2CF009CC006 /* View_CreateWorkSpace.swift in Sources */,
+				CF337BC22B921268009CC006 /* ViewModifier_Collapse.swift in Sources */,
 				CF337B7B2B90C35D009CC006 /* Entity_Account.swift in Sources */,
 				CF337B772B90C327009CC006 /* View_Me.swift in Sources */,
+				CF337BC62B92195B009CC006 /* ViewModifier_ImageGeneratorMethods.swift in Sources */,
 				CF337B052B90B16B009CC006 /* SwiftodoUITests.swift in Sources */,
 				CF337B6F2B90C2FD009CC006 /* View_TaskSection.swift in Sources */,
+				CF337BA62B910BF8009CC006 /* View_WorkspaceDetails.swift in Sources */,
+				CF337BB62B91FF3F009CC006 /* UI_SolidButton.swift in Sources */,
 				CF337B832B90C37B009CC006 /* Entity_Workspace.swift in Sources */,
+				CF337B9D2B90E90C009CC006 /* Constant_Tab.swift in Sources */,
 				CF337B732B90C31C009CC006 /* View_TaskDetails.swift in Sources */,
+				CF337BBA2B920F12009CC006 /* ViewModifier_ CollapsibleCardView.swift in Sources */,
 				CF337B8C2B90C944009CC006 /* View_Login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -898,6 +1004,14 @@
 				minimumVersion = 7.0.0;
 			};
 		};
+		CF337BA72B91922D009CC006 /* XCRemoteSwiftPackageReference "swiftui-introspect" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/siteline/swiftui-introspect.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.1.3;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -930,6 +1044,21 @@
 			isa = XCSwiftPackageProductDependency;
 			package = CF337B522B90B6D8009CC006 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
 			productName = GoogleSignInSwift;
+		};
+		CF337BA82B91922D009CC006 /* SwiftUIIntrospect */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337BA72B91922D009CC006 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = SwiftUIIntrospect;
+		};
+		CF337BAA2B91922D009CC006 /* SwiftUIIntrospect-Dynamic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337BA72B91922D009CC006 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = "SwiftUIIntrospect-Dynamic";
+		};
+		CF337BAC2B91922D009CC006 /* SwiftUIIntrospect-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CF337BA72B91922D009CC006 /* XCRemoteSwiftPackageReference "swiftui-introspect" */;
+			productName = "SwiftUIIntrospect-Static";
 		};
 /* End XCSwiftPackageProductDependency section */
 

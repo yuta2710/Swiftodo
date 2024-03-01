@@ -34,19 +34,13 @@ struct SwiftodoApp: App {
     
     var body: some Scene {
         WindowGroup {
-//            ContentView()
-//                .environment(\.managedObjectContext, persistenceController.container.viewContext)
-//                .environmentObject(authenticationManager)
             if authenticationManager.isSignIn {
-                HomeView()
+                CreateWorkSpaceView()
                     .environmentObject(authenticationManager)
             }else {
                 LoginView()
                     .environmentObject(authenticationManager)
             }
-//            LoginView()
-//                .environmentObject(authenticationManager)
-            
         }
     }
 }
